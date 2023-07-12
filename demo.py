@@ -1,3 +1,7 @@
+pip install -U scikit-learn
+pip install pandas
+
+
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
@@ -96,5 +100,5 @@ valor = f'{prediction[0]:,.2f}'\
 
 # Centralizando o texto da previsão
 st.markdown("<h2 style='text-align: center;'>O imóvel deve ser precificado em <b>"
-            + "R$" + valor + "</b></h2>",
+            + "R$ " + valor + "</b></h2>",
             unsafe_allow_html=True)
