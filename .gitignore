@@ -6,6 +6,8 @@ __pycache__/
 # C extensions
 *.so
 
+convert.ipynb
+
 # Distribution / packaging
 .Python
 build/
