@@ -89,9 +89,9 @@ input_data = pd.DataFrame({
 })
 
 prediction = rf_model.predict(input_data)
-valor = f'R$ {prediction[0]:,.2f}'\
+valor = f'{prediction[0]:,.2f}'\
     .replace(",", " ")\
     .replace(".", ",")\
     .replace(" ", ".")
 
-st.markdown("##    O imóvel deve ser precificado em **" + valor + ".**")
+st.markdown("##    O imóvel deve ser precificado em R$ **" + valor + ".**\n\n")
