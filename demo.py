@@ -94,4 +94,4 @@ valor = f'{prediction[0]:,.2f}'\
     .replace(".", ",")\
     .replace(" ", ".")
 
-st.markdown("##    O imóvel deve ser precificado em**" + "R$" + valor + ".**\n\n")
+st.markdown("##    O imóvel deve ser precificado em**" + "R$ " + valor + ".**\n\n")
