@@ -7,6 +7,8 @@ __pycache__/
 *.so
 
 convert.ipynb
+venv/
+.vscode/
 
 # Distribution / packaging
 .Python
