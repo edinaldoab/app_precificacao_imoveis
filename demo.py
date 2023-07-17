@@ -40,14 +40,14 @@ with st.sidebar:
     zona_sul = st.checkbox("Zona Sul")
 
 with st.sidebar:
-    st.subheader("Informações \n básicas:")
+    st.subheader("Informações básicas:")
     andar = st.number_input("Andar (n°):", min_value=1)
     area_util = st.number_input("Área Útil (m²):", min_value=0.0)
     banheiros = st.number_input("Banheiros:", min_value=0)
     quartos = st.number_input("Quartos:", min_value=0)
 
 with st.sidebar:
-    st.subheader("Informações \n adicionais")
+    st.subheader("Informações adicionais")
     suites = st.number_input("Suítes:", min_value=0)
     vaga = st.checkbox("Vaga de Garagem")
     condominio = st.number_input("Valor do Condomínio (R$):", min_value=0.0)
@@ -94,4 +94,4 @@ valor = f'{prediction[0]:,.2f}'\
     .replace(".", ",")\
     .replace(" ", ".")
 
-st.markdown("##    O imóvel deve ser precificado em:\n\nR$ **" + valor + ".**")
+st.markdown("##    O imóvel deve ser precificado em:  **R$" + valor + ".**")
